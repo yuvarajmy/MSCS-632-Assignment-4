@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Alice Johnson",
+    "preferences": {
+      "Mon": {"Morning": 1, "Afternoon": 2},
+      "Tue": "Morning",
+      "Wed": {"Morning": 1, "Evening": 3},
+      "Thu": "Afternoon",
+      "Fri": {"Morning": 1, "Afternoon": 2, "Evening": 3}
+    }
+  },
+  {
+    "name": "Bob Smith",
+    "preferences": {
+      "Mon": "Afternoon",
+      "Tue": {"Afternoon": 1, "Evening": 2},
+      "Wed": "Afternoon",
+      "Fri": "Evening",
+      "Sat": {"Afternoon": 1, "Evening": 2}
+    }
+  },
+  {
+    "name": "Charlie Davis",
+    "preferences": {
+      "Mon": {"Evening": 1, "Afternoon": 2},
+      "Wed": "Evening",
+      "Thu": {"Evening": 1, "Afternoon": 2},
+      "Sat": "Evening",
+      "Sun": "Evening"
+    }
+  },
+  {
+    "name": "Diana Martinez",
+    "preferences": {
+      "Tue": {"Morning": 1, "Afternoon": 2},
+      "Wed": "Morning",
+      "Thu": {"Morning": 1, "Evening": 3},
+      "Fri": "Morning",
+      "Sun": {"Morning": 1, "Afternoon": 2}
+    }
+  },
+  {
+    "name": "Ethan Brown",
+    "preferences": {
+      "Mon": "Morning",
+      "Tue": {"Afternoon": 1, "Morning": 2},
+      "Thu": "Afternoon",
+      "Fri": {"Afternoon": 1, "Evening": 2},
+      "Sat": "Morning"
+    }
+  },
+  {
+    "name": "Fiona Wilson",
+    "preferences": {
+      "Mon": {"Afternoon": 1, "Evening": 2},
+      "Tue": "Evening",
+      "Wed": {"Afternoon": 1, "Evening": 2},
+      "Sat": "Afternoon",
+      "Sun": {"Afternoon": 1, "Morning": 2}
+    }
+  },
+  {
+    "name": "George Taylor",
+    "preferences": {
+      "Mon": "Evening",
+      "Wed": {"Evening": 1, "Morning": 2},
+      "Thu": "Evening",
+      "Fri": "Evening",
+      "Sun": {"Evening": 1, "Afternoon": 2}
+    }
+  },
+  {
+    "name": "Hannah Lee",
+    "preferences": {
+      "Tue": {"Morning": 1, "Afternoon": 2, "Evening": 3},
+      "Wed": "Morning",
+      "Thu": "Morning",
+      "Sat": {"Morning": 1, "Afternoon": 2},
+      "Sun": "Morning"
+    }
+  },
+  {
+    "name": "Ian Clark",
+    "preferences": {
+      "Mon": {"Afternoon": 1, "Morning": 2},
+      "Tue": "Afternoon",
+      "Wed": "Afternoon",
+      "Fri": {"Afternoon": 1, "Morning": 2},
+      "Sun": "Afternoon"
+    }
+  },
+  {
+    "name": "Julia White",
+    "preferences": {
+      "Mon": "Morning",
+      "Wed": {"Morning": 1, "Afternoon": 2},
+      "Thu": {"Morning": 1, "Afternoon": 2, "Evening": 3},
+      "Sat": "Morning",
+      "Sun": {"Morning": 1, "Evening": 2}
+    }
+  },
+  {
+    "name": "Kevin Harris",
+    "preferences": {
+      "Tue": {"Evening": 1, "Afternoon": 2},
+      "Thu": "Evening",
+      "Fri": {"Evening": 1, "Afternoon": 2},
+      "Sat": {"Evening": 1, "Morning": 2},
+      "Sun": "Evening"
+    }
+  },
+  {
+    "name": "Laura Green",
+    "preferences": {
+      "Mon": {"Morning": 1, "Evening": 2},
+      "Tue": "Morning",
+      "Wed": {"Morning": 1, "Afternoon": 2, "Evening": 3},
+      "Fri": "Morning",
+      "Sat": {"Morning": 1, "Afternoon": 2}
+    }
+  }
+]

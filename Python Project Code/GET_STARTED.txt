@@ -1,0 +1,74 @@
+================================================================================
+                     EMPLOYEE SHIFT SCHEDULER
+                         GET STARTED IN 3 STEPS
+================================================================================
+
+STEP 1: INSTALL DEPENDENCIES
+-----------------------------
+pip install streamlit pandas matplotlib pydantic
+
+Or use requirements file:
+pip install -r requirements.txt
+
+
+STEP 2: RUN THE APPLICATION
+-----------------------------
+streamlit run app.py
+
+The app will open at: http://localhost:8501
+
+
+STEP 3: TRY THE DEMO
+-----------------------------
+1. Click "📥 Load Sample Data (12 Employees)" in the sidebar
+2. Go to "⚙️ Generate Schedule" tab
+3. Click "🚀 Generate Weekly Schedule"
+4. View results in "📊 Schedule & Exports" tab
+5. Download schedule as CSV, JSON, or PNG
+
+
+================================================================================
+                         THAT'S IT! YOU'RE DONE!
+================================================================================
+
+
+WHAT YOU'LL SEE:
+----------------
+• Tab 1: Add and edit employees with shift preferences
+• Tab 2: Generate optimized weekly schedules
+• Tab 3: View and export schedules in multiple formats
+
+
+KEY FEATURES:
+-------------
+✓ Smart scheduling respects employee preferences
+✓ Max 5 workdays per employee per week
+✓ Min 2 employees per shift (automatic backfill)
+✓ Ranked preferences (1st, 2nd, 3rd choice)
+✓ Conflict detection and automatic resolution
+✓ Export to CSV, JSON, and PNG formats
+✓ Deterministic results (reproducible with same seed)
+
+
+NEED HELP?
+----------
+• README.md - Full documentation
+• INSTALL.md - Detailed installation guide
+• QUICK_REFERENCE.md - Command reference
+• PROJECT_SUMMARY.md - Technical details
+
+
+RUNNING TESTS:
+--------------
+python tests/test_scheduler.py
+
+
+QUICK START SCRIPT:
+-------------------
+./run.sh
+(Automatically sets up venv, installs deps, runs tests, and starts app)
+
+
+================================================================================
+                    Built with Python & Streamlit
+================================================================================
