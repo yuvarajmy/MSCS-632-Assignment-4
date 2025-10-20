@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.scheduler.controller.MainController"
+      spacing="10" style="-fx-padding: 10;">
+
+    <MenuBar>
+        <Menu text="File">
+            <MenuItem text="Import Employees JSON" onAction="#handleImportEmployees"/>
+            <MenuItem text="Export Employees JSON" onAction="#handleExportEmployees"/>
+            <SeparatorMenuItem/>
+            <MenuItem text="Exit" onAction="#handleExit"/>
+        </Menu>
+        <Menu text="Data">
+            <MenuItem text="Load Sample Data" onAction="#handleLoadSampleData"/>
+            <MenuItem text="Reset Schedule" onAction="#handleResetSchedule"/>
+        </Menu>
+        <Menu text="Help">
+            <MenuItem text="About" onAction="#handleAbout"/>
+        </Menu>
+    </MenuBar>
+
+    <HBox spacing="10" alignment="CENTER_LEFT" style="-fx-padding: 10;">
+        <Label text="Random Seed:"/>
+        <TextField fx:id="seedField" prefWidth="100" text="42"/>
+        <Button text="Generate Schedule" onAction="#handleGenerateSchedule" style="-fx-font-weight: bold;"/>
+    </HBox>
+
+    <TabPane fx:id="tabPane" VBox.vgrow="ALWAYS">
+        <Tab text="Employees &amp; Preferences" closable="false">
+            <VBox spacing="10" style="-fx-padding: 10;">
+                <HBox spacing="10" alignment="CENTER_LEFT">
+                    <Button text="Add Employee" onAction="#handleAddEmployee"/>
+                    <Button text="Edit Employee" onAction="#handleEditEmployee"/>
+                    <Button text="Delete Employee" onAction="#handleDeleteEmployee"/>
+                </HBox>
+
+                <TableView fx:id="employeeTable" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="nameColumn" text="Name" prefWidth="200"/>
+                    </columns>
+                </TableView>
+
+                <Label text="Preferences for Selected Employee:" style="-fx-font-weight: bold;"/>
+
+                <ScrollPane VBox.vgrow="ALWAYS" fitToWidth="true">
+                    <VBox fx:id="preferencesBox" spacing="15" style="-fx-padding: 10;"/>
+                </ScrollPane>
+            </VBox>
+        </Tab>
+
+        <Tab text="Schedule" closable="false">
+            <VBox spacing="10" style="-fx-padding: 10;">
+                <HBox spacing="10" alignment="CENTER_LEFT">
+                    <Button text="Export Schedule JSON" onAction="#handleExportScheduleJSON"/>
+                    <Button text="Export Schedule CSV" onAction="#handleExportScheduleCSV"/>
+                    <Button text="Save Schedule as PNG" onAction="#handleSaveSchedulePNG"/>
+                </HBox>
+
+                <ScrollPane VBox.vgrow="ALWAYS" fitToWidth="true" fitToHeight="true">
+                    <GridPane fx:id="scheduleGrid" hgap="5" vgap="5" style="-fx-padding: 10; -fx-border-color: #cccccc; -fx-border-width: 1;"/>
+                </ScrollPane>
+
+                <Label text="Metrics:" style="-fx-font-weight: bold;"/>
+                <TextArea fx:id="metricsArea" prefRowCount="4" editable="false" wrapText="true"/>
+
+                <Label text="Scheduling Logs:" style="-fx-font-weight: bold;"/>
+                <TextArea fx:id="logsArea" VBox.vgrow="ALWAYS" editable="false" wrapText="true"/>
+            </VBox>
+        </Tab>
+    </TabPane>
+</VBox>

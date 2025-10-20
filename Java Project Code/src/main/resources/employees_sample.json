@@ -1,0 +1,486 @@
+[
+  {
+    "id": "emp-001",
+    "name": "Alice Johnson",
+    "preferences": {
+      "MON": {
+        "single": null,
+        "ranked": {
+          "MORNING": 1,
+          "AFTERNOON": 2,
+          "EVENING": 3
+        }
+      },
+      "TUE": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "WED": {
+        "single": null,
+        "ranked": {
+          "EVENING": 1,
+          "MORNING": 2,
+          "AFTERNOON": 3
+        }
+      },
+      "THU": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "FRI": {
+        "single": null,
+        "ranked": {}
+      },
+      "SAT": {
+        "single": null,
+        "ranked": {}
+      },
+      "SUN": {
+        "single": null,
+        "ranked": {}
+      }
+    }
+  },
+  {
+    "id": "emp-002",
+    "name": "Bob Smith",
+    "preferences": {
+      "MON": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "TUE": {
+        "single": null,
+        "ranked": {
+          "MORNING": 1,
+          "EVENING": 2,
+          "AFTERNOON": 3
+        }
+      },
+      "WED": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "THU": {
+        "single": null,
+        "ranked": {
+          "EVENING": 1,
+          "AFTERNOON": 2,
+          "MORNING": 3
+        }
+      },
+      "FRI": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "SAT": {
+        "single": null,
+        "ranked": {}
+      },
+      "SUN": {
+        "single": null,
+        "ranked": {}
+      }
+    }
+  },
+  {
+    "id": "emp-003",
+    "name": "Carol Williams",
+    "preferences": {
+      "MON": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "TUE": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "WED": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "THU": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "FRI": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "SAT": {
+        "single": null,
+        "ranked": {}
+      },
+      "SUN": {
+        "single": null,
+        "ranked": {}
+      }
+    }
+  },
+  {
+    "id": "emp-004",
+    "name": "David Brown",
+    "preferences": {
+      "MON": {
+        "single": null,
+        "ranked": {
+          "AFTERNOON": 1,
+          "EVENING": 2,
+          "MORNING": 3
+        }
+      },
+      "TUE": {
+        "single": null,
+        "ranked": {
+          "AFTERNOON": 1,
+          "MORNING": 2,
+          "EVENING": 3
+        }
+      },
+      "WED": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "THU": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "FRI": {
+        "single": null,
+        "ranked": {
+          "AFTERNOON": 1,
+          "EVENING": 2,
+          "MORNING": 3
+        }
+      },
+      "SAT": {
+        "single": null,
+        "ranked": {}
+      },
+      "SUN": {
+        "single": null,
+        "ranked": {}
+      }
+    }
+  },
+  {
+    "id": "emp-005",
+    "name": "Emma Davis",
+    "preferences": {
+      "MON": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "TUE": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "WED": {
+        "single": null,
+        "ranked": {
+          "MORNING": 1,
+          "AFTERNOON": 2,
+          "EVENING": 3
+        }
+      },
+      "THU": {
+        "single": null,
+        "ranked": {}
+      },
+      "FRI": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "SAT": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "SUN": {
+        "single": null,
+        "ranked": {}
+      }
+    }
+  },
+  {
+    "id": "emp-006",
+    "name": "Frank Miller",
+    "preferences": {
+      "MON": {
+        "single": null,
+        "ranked": {
+          "EVENING": 1,
+          "AFTERNOON": 2,
+          "MORNING": 3
+        }
+      },
+      "TUE": {
+        "single": null,
+        "ranked": {}
+      },
+      "WED": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "THU": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "FRI": {
+        "single": null,
+        "ranked": {
+          "EVENING": 1,
+          "MORNING": 2,
+          "AFTERNOON": 3
+        }
+      },
+      "SAT": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "SUN": {
+        "single": null,
+        "ranked": {}
+      }
+    }
+  },
+  {
+    "id": "emp-007",
+    "name": "Grace Wilson",
+    "preferences": {
+      "MON": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "TUE": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "WED": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "THU": {
+        "single": null,
+        "ranked": {
+          "MORNING": 1,
+          "AFTERNOON": 2,
+          "EVENING": 3
+        }
+      },
+      "FRI": {
+        "single": null,
+        "ranked": {}
+      },
+      "SAT": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "SUN": {
+        "single": "MORNING",
+        "ranked": {}
+      }
+    }
+  },
+  {
+    "id": "emp-008",
+    "name": "Henry Moore",
+    "preferences": {
+      "MON": {
+        "single": null,
+        "ranked": {
+          "AFTERNOON": 1,
+          "MORNING": 2,
+          "EVENING": 3
+        }
+      },
+      "TUE": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "WED": {
+        "single": null,
+        "ranked": {
+          "AFTERNOON": 1,
+          "EVENING": 2,
+          "MORNING": 3
+        }
+      },
+      "THU": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "FRI": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "SAT": {
+        "single": null,
+        "ranked": {}
+      },
+      "SUN": {
+        "single": "EVENING",
+        "ranked": {}
+      }
+    }
+  },
+  {
+    "id": "emp-009",
+    "name": "Ivy Taylor",
+    "preferences": {
+      "MON": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "TUE": {
+        "single": null,
+        "ranked": {
+          "MORNING": 1,
+          "AFTERNOON": 2,
+          "EVENING": 3
+        }
+      },
+      "WED": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "THU": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "FRI": {
+        "single": null,
+        "ranked": {}
+      },
+      "SAT": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "SUN": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      }
+    }
+  },
+  {
+    "id": "emp-010",
+    "name": "Jack Anderson",
+    "preferences": {
+      "MON": {
+        "single": null,
+        "ranked": {
+          "MORNING": 1,
+          "EVENING": 2,
+          "AFTERNOON": 3
+        }
+      },
+      "TUE": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "WED": {
+        "single": null,
+        "ranked": {
+          "MORNING": 1,
+          "AFTERNOON": 2,
+          "EVENING": 3
+        }
+      },
+      "THU": {
+        "single": null,
+        "ranked": {}
+      },
+      "FRI": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "SAT": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "SUN": {
+        "single": null,
+        "ranked": {}
+      }
+    }
+  },
+  {
+    "id": "emp-011",
+    "name": "Karen Thomas",
+    "preferences": {
+      "MON": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "TUE": {
+        "single": null,
+        "ranked": {
+          "EVENING": 1,
+          "AFTERNOON": 2,
+          "MORNING": 3
+        }
+      },
+      "WED": {
+        "single": null,
+        "ranked": {}
+      },
+      "THU": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "FRI": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "SAT": {
+        "single": "EVENING",
+        "ranked": {}
+      },
+      "SUN": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      }
+    }
+  },
+  {
+    "id": "emp-012",
+    "name": "Leo Martinez",
+    "preferences": {
+      "MON": {
+        "single": null,
+        "ranked": {
+          "EVENING": 1,
+          "MORNING": 2,
+          "AFTERNOON": 3
+        }
+      },
+      "TUE": {
+        "single": "AFTERNOON",
+        "ranked": {}
+      },
+      "WED": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "THU": {
+        "single": null,
+        "ranked": {
+          "AFTERNOON": 1,
+          "EVENING": 2,
+          "MORNING": 3
+        }
+      },
+      "FRI": {
+        "single": null,
+        "ranked": {}
+      },
+      "SAT": {
+        "single": "MORNING",
+        "ranked": {}
+      },
+      "SUN": {
+        "single": "EVENING",
+        "ranked": {}
+      }
+    }
+  }
+]
